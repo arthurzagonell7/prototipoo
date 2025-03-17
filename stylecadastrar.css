@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+header p{
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+#add1:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+#add2:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.container img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+
+.item {
+    display: flex; 
+}
+
+
+.limpar {
+    margin: 15px;
+}
+
+.itensCar {
+    margin: 15px;
+    font-size: 20px;
+}
+.cadastro_titulo {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.cadastro_titulo h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+.cadastro_titulo input[type="text"],
+.cadastro_titulo input[type="email"],
+.cadastro_titulo input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cadastro_titulo button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.register-btn {
+    background: #004080; 
+}
+
+.cadastro_titulo button:hover {
+    opacity: 0.9;
+}
+.cadastro_titulo a {
+    color: #2196F3;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+.cadastro_titulo a:hover {
+    text-decoration: underline;
+}

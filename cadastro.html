@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="./stylecadastrar.css">
+
+</head>
+
+<body>
+    <div class="cadastro_titulo">
+        <h2>Cadastrar-se</h2>
+        <form action="register_success.html" method="POST">
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="password" placeholder="Senha" id="senha" required>
+            <a href="logar.html">
+                <button type="submit" class="register-btn" onclick="cadastrar(event)">Cadastrar</button>
+            </a>
+        </form>
+    </div>
+
+    <script src="cadastro.js"></script>
+</body>
+
+</html>
